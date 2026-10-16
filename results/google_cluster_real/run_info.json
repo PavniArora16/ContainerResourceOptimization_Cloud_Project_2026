@@ -1,0 +1,18 @@
+{
+  "dataset": "dataset\\processed\\google_cluster_real\\ml_ready_dataset.csv",
+  "total_rows": 2340917,
+  "training_rows_used": 250000,
+  "testing_rows": 425678,
+  "cutoff_time_seconds": 4607.0,
+  "features": [
+    "start_seconds",
+    "gap_seconds",
+    "previous_cpu",
+    "previous_memory"
+  ],
+  "targets": {
+    "cpu": "cpu_usage",
+    "memory": "memory_usage"
+  },
+  "training_sample_limit": 250000
+}

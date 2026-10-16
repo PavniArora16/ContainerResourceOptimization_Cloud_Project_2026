@@ -17,3 +17,8 @@ src/frontend/dist/
 __pycache__/
 *.pyc
 .env
+# Large generated datasets
+dataset/processed/google_cluster_real/*.csv
+
+# Large generated model artifacts
+results/google_cluster_real/models/*.pkl
